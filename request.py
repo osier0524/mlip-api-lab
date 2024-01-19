@@ -1,7 +1,7 @@
 import requests
 
 api_endpoint = "http://localhost:3000/api/v1/analysis/"
-image_uri = "/Users/bohanliu/Documents/17645/mlip-api-lab/test-image.jpeg"
+image_uri = "https://github.com/Azure-Samples/cognitive-services-python-sdk-samples/raw/master/samples/vision/images/make_things_happen.jpg"
 
 json_data = {"uri": image_uri}
 
